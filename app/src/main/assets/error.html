@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: white;
+        }
+        .error-container {
+            text-align: center;
+            padding: 20px;
+        }
+        .retry-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background: #007AFF;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h2>Connection Error</h2>
+        <p>Unable to connect to the server. Please check your internet connection.</p>
+        <button class="retry-button" onclick="window.location.href='https://amstrade.live/'">Retry</button>
+    </div>
+</body>
+</html>
